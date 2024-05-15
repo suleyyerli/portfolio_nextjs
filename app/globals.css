@@ -1,0 +1,128 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 0 0% 0%;
+      --muted: 0 12% 90%;
+      --muted-foreground: 0 12% 30%;
+      --popover: 0 0% 97%;
+      --popover-foreground: 0 0% 0%;
+      --card: 0 0% 98%;
+      --card-foreground: 0 0% 0%;
+      --border: 0 0% 95%;
+      --input: 0 0% 92%;
+      --primary: 209 100% 54%;
+      --primary-foreground: 0 0% 100%;
+      --secondary: 209 30% 75%;
+      --secondary-foreground: 209 30% 15%;
+      --accent: 0 0% 85%;
+      --accent-foreground: 0 0% 25%;
+      --destructive: 6 86% 43%;
+      --destructive-foreground: 0 0% 100%;
+      --ring: 209 100% 54%;
+        --radius: 0.5rem;
+    }
+
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }
+
+/* theme  apple white
+--background: 0 0% 100%;
+      --foreground: 0 0% 0%;
+      --muted: 0 12% 90%;
+      --muted-foreground: 0 12% 30%;
+      --popover: 0 0% 97%;
+      --popover-foreground: 0 0% 0%;
+      --card: 0 0% 98%;
+      --card-foreground: 0 0% 0%;
+      --border: 0 0% 95%;
+      --input: 0 0% 92%;
+      --primary: 209 100% 54%;
+      --primary-foreground: 0 0% 100%;
+      --secondary: 209 30% 75%;
+      --secondary-foreground: 209 30% 15%;
+      --accent: 0 0% 85%;
+      --accent-foreground: 0 0% 25%;
+      --destructive: 6 86% 43%;
+      --destructive-foreground: 0 0% 100%;
+      --ring: 209 100% 54%;
+  */
+
+/*
+full dark
+--foreground: 0 0% 0%;
+      --background: 0 0% 100%;
+      --muted: 0 12% 90%;
+      --muted-foreground: 0 12% 30%;
+      --popover: 0 0% 97%;
+      --popover-foreground: 0 0% 0%;
+      --card: 0 0% 98%;
+      --card-foreground: 0 0% 0%;
+      --border: 0 0% 95%;
+      --input: 0 0% 92%;
+      --primary: 209 100% 54%;
+      --primary-foreground: 0 0% 100%;
+      --secondary: 209 30% 75%;
+      --secondary-foreground: 209 30% 15%;
+      --accent: 0 0% 85%;
+      --accent-foreground: 0 0% 25%;
+      --destructive: 4 100% 43%;
+      --destructive-foreground: 0 0% 100%;
+      --ring: 209 100% 54%;
+
+      */
+
+/*theme gris
+      --background: 216 13% 15%;
+      --foreground: 219 18% 71%;
+      --muted: 216 12% 19%;
+      --muted-foreground: 216 12% 69%;
+      --popover: 216 13% 12%;
+      --popover-foreground: 219 18% 81%;
+      --card: 216 13% 13%;
+      --card-foreground: 219 18% 76%;
+      --border: 216 3% 20%;
+      --input: 216 3% 23%;
+      --primary: 219 18% 81%;
+      --primary-foreground: 219 18% 21%;
+      --secondary: 219 8% 25%;
+      --secondary-foreground: 219 8% 85%;
+      --accent: 216 13% 30%;
+      --accent-foreground: 216 13% 90%;
+      --destructive: 3 95% 48%;
+      --destructive-foreground: 0 0% 100%;
+      --ring: 219 18% 81%;
+*/
+
+/*macosmodernDArk
+--background: 0 1% 14%;
+      --foreground: 0 0% 87%;
+      --muted: 0 12% 18%;
+      --muted-foreground: 0 12% 68%;
+      --popover: 0 1% 11%;
+      --popover-foreground: 0 0% 97%;
+      --card: 0 1% 12%;
+      --card-foreground: 0 0% 92%;
+      --border: 0 0% 19%;
+      --input: 0 0% 22%;
+      --primary: 209 100% 54%;
+      --primary-foreground: 0 0% 100%;
+      --secondary: 209 30% 75%;
+      --secondary-foreground: 209 30% 15%;
+      --accent: 0 1% 29%;
+      --accent-foreground: 0 1% 89%;
+      --destructive: 6 96% 46%;
+      --destructive-foreground: 0 0% 100%;
+      --ring: 209 100% 54%;
+*/
