@@ -8,18 +8,22 @@ import { LinkedinIcon } from "./icons/LinkedinIcon";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 py-4">
+    <header className="sticky top-0 py-4 z-50">
       <Section className="flex items-baseline">
         <h1 className="text-lg font-bold text-primary">suley.com</h1>
 
         <div className="flex-1" />
         <ul className="flex items-center gap-2">
           <Link href="http://localhost:3000/">
-            <p className="text-primary">/Accueil</p>
+            <p className="text-primary">/accueil</p>
           </Link>
 
           <Link href="/blog">
             <p className="text-primary">/blog</p>
+          </Link>
+
+          <Link href="/E4">
+            <p className="text-primary">/oralE4</p>
           </Link>
           <Link
             href="https://github.com/"

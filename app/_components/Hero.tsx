@@ -14,23 +14,23 @@ export const Hero = () => {
           Suleyman Yerli
         </h2>
         <h3 className="text-3xl font-caption"> Software developer</h3>
-        <p>
+        <p className="text-muted-foreground">
           Salut, Je suis, étudiant en alternance en{" "}
-          <CodeContour className="inline-flex item-center gap-3">
-            <EtudeIcon size={20} className="inline" /> BTS SIO
+          <CodeContour className="inline-flex items-center gap-2">
+            <EtudeIcon size={15} className="inline" /> bts sio
           </CodeContour>
           spécialisé en SLAM, passionné d'informatique. Mon parcours m'a permis
           de combiner théorie et expérience professionnelle, avec des projets
-          concrets en entreprise, incluant le devellopement d'outil pour
-          faciliter le travail en usine, maîtrise et dévellopement sur{" "}
+          concrets en entreprise, incluant le developpement d'outil pour
+          faciliter le travail en usine, maîtrise et développement sur{" "}
           <CodeContour>ERP</CodeContour>. Je souhaite approfondir mes
           compétences, et obtenr mon BTS pour poursuivre vers une license.
         </p>
 
         <p className="text-base pt-1">
           J'utilise personnellement{" "}
-          <CodeContour className="inline-flex item-center gap-3">
-            <VScodeIcon size={30} className="inline" /> VScode
+          <CodeContour className="inline-flex items-center gap-2">
+            <VScodeIcon size={15} className="inline" /> VScode
           </CodeContour>
         </p>
       </div>

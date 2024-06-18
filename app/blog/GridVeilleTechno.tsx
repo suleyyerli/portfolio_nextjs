@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Badge } from "@/components/ui/badge";
 import { BentoGrid, BentoGridItem } from "../_components/bento-grid";
+import Link from "next/link";
 
 export function GridVeilleTechno() {
   return (
@@ -17,7 +18,7 @@ export function GridVeilleTechno() {
             description={item.description}
             header={item.header}
             className={item.className}
-            icon={item.icon} // Remplacer par une balise img avec la source de l'image
+            icon={item.icon}
           />
         ))}
       </BentoGrid>
@@ -35,7 +36,8 @@ const items = [
     description: "Explore the birth of groundbreaking ideas and inventions.",
     header: <Skeleton />,
     className: "md:col-span-2",
-    icon: <img src="/underscore.png" alt="Image" className="w-full h-full" />, // Remplacer "url_de_votre_image_ici" par l'URL de votre image
+    icon: <img src="/underscore.png" alt="Image" className="w-full h-full" />,
+    url: "https://www.youtube.com/@Underscore_",
   },
   {
     title: "The Digital Revolution",
@@ -49,6 +51,7 @@ const items = [
         className="h-4 w-4 text-neutral-500"
       />
     ),
+    url: "/",
   },
   {
     title: "The Art of Design",
@@ -62,6 +65,7 @@ const items = [
         className="h-4 w-4 text-neutral-500"
       />
     ),
+    url: "/",
   },
   {
     title: "The Power of Communication",

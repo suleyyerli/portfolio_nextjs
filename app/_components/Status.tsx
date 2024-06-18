@@ -26,7 +26,7 @@ export const Status = () => {
                 Logo={project.Logo}
                 title={project.title}
                 description={project.description}
-                url="/"
+                url={project.url}
               />
             ))}
           </div>
@@ -70,15 +70,15 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     title: "Mon portfolio",
     description:
       "Le developpement de mon portfolio en Next.JS, React.JS et TailwindCSS.",
-    url: "/",
+    url: "https://github.com/suleyyerli/portfolio_nextjs",
   },
 
   {
     Logo: Database,
-    title: "Creation d'une BDD",
+    title: "Projet gsb",
     description:
-      "Le developpement de mon portfolio en Next.JS, React.JS et TailwindCSS.",
-    url: "/",
+      "Le developpement d'une application de gestion de comptabilité.",
+    url: "https://github.com/suleyyerli/gsb",
   },
 
   {

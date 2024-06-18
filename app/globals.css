@@ -1,41 +1,40 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
-  @layer base {
-    :root {
-      --background: 0 0% 100%;
-      --foreground: 0 0% 0%;
-      --muted: 0 12% 90%;
-      --muted-foreground: 0 12% 30%;
-      --popover: 0 0% 97%;
-      --popover-foreground: 0 0% 0%;
-      --card: 0 0% 98%;
-      --card-foreground: 0 0% 0%;
-      --border: 0 0% 95%;
-      --input: 0 0% 92%;
-      --primary: 209 100% 54%;
-      --primary-foreground: 0 0% 100%;
-      --secondary: 209 30% 75%;
-      --secondary-foreground: 209 30% 15%;
-      --accent: 0 0% 85%;
-      --accent-foreground: 0 0% 25%;
-      --destructive: 6 86% 43%;
-      --destructive-foreground: 0 0% 100%;
-      --ring: 209 100% 54%;
-        --radius: 0.5rem;
-    }
-
+@layer base {
+  :root {
+    --foreground: 0 0% 0%;
+    --background: 0 0% 100%;
+    --muted: 0 12% 90%;
+    --muted-foreground: 0 12% 30%;
+    --popover: 0 0% 97%;
+    --popover-foreground: 0 0% 0%;
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 0%;
+    --border: 0 0% 95%;
+    --input: 0 0% 92%;
+    --primary: 209 100% 54%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 209 30% 75%;
+    --secondary-foreground: 209 30% 15%;
+    --accent: 0 0% 85%;
+    --accent-foreground: 0 0% 25%;
+    --destructive: 4 100% 43%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 209 100% 54%;
+    --radius: 0.5rem;
   }
+}
 
-  @layer base {
-    * {
-      @apply border-border;
-    }
-    body {
-      @apply bg-background text-foreground;
-    }
+@layer base {
+  * {
+    @apply border-border;
   }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
 
 /* theme  apple white
 --background: 0 0% 100%;
